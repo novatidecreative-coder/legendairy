@@ -6,8 +6,6 @@ import { Phone, MapPin, Send } from 'lucide-react';
 import PageHeader from '@/components/PageHeader';
 import ScrollReveal from '@/components/ScrollReveal';
 
-export const dynamic = 'force-dynamic';
-
 const PHONE = '(516) 708-7755';
 const PHONE_TEL = 'tel:+15167087755';
 const ADDRESS = '79-38 209th St, Flushing, NY 11364';

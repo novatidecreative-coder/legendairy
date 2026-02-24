@@ -12,6 +12,10 @@
   --color-text: #e8edf5;
   --color-text-muted: #8899b0;
   --color-border: rgba(0, 194, 255, 0.15);
+  /* Fonts loaded via link in layout.tsx – no build-time fetch */
+  --font-bebas: 'Bebas Neue', sans-serif;
+  --font-dm-sans: 'DM Sans', system-ui, sans-serif;
+  --font-space-mono: 'Space Mono', monospace;
 }
 
 html {

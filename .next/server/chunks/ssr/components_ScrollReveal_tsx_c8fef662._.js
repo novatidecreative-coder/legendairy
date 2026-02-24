@@ -1,0 +1,3 @@
+module.exports=[31600,a=>{"use strict";var b=a.i(72131);function c(){return(0,b.useEffect)(()=>{let a=document.querySelectorAll(".section-enter"),b=new IntersectionObserver(a=>{a.forEach(a=>{a.isIntersecting&&a.target.classList.add("visible")})},{threshold:.1,rootMargin:"0px 0px -40px 0px"});return a.forEach(a=>b.observe(a)),()=>b.disconnect()},[]),null}a.s(["default",()=>c])}];
+
+//# sourceMappingURL=components_ScrollReveal_tsx_c8fef662._.js.map

@@ -171,3 +171,25 @@ Unexpected token. Did you mean `{'>'}` or `&gt;`?
 [00:11:26.796] Server  ERROR   ⨯ TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
 [00:11:26.903] Server  ERROR   ⨯ TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
 [00:11:26.966] Browser ERROR   uncaughtError: TypeError: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+[00:24:47.243] Server  LOG     ✓ Compiled in 75ms
+[00:24:47.415] Server  ERROR   ⨯ TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+[00:24:47.526] Server  ERROR   ⨯ TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+[00:24:47.632] Server  ERROR   ⨯ TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+[00:24:47.739] Server  ERROR   ⨯ TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+[00:24:47.836] Server  ERROR   ⨯ TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+[00:24:47.943] Server  ERROR   ⨯ TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+[00:24:48.027] Server  ERROR   ⨯ TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+[00:24:48.114] Server  ERROR   ⨯ TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+[00:24:48.126] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:24:48.126] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:24:48.127] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:24:48.127] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:24:48.318] Server  ERROR   ⨯ TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+[00:24:48.415] Server  ERROR   ⨯ TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+[00:24:48.520] Server  ERROR   ⨯ TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+[00:24:48.612] Server  ERROR   ⨯ TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+[00:24:48.708] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:48.779] Browser ERROR   uncaughtError: TypeError: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+[00:24:48.792] Browser ERROR   uncaughtError: TypeError: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+[00:24:50.945] Server  LOG     ✓ Compiled in 119ms
+[00:25:47.460] Server  LOG     ✓ Compiled in 50ms

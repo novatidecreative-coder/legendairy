@@ -1,6 +1,4 @@
-const fs = require('fs');
-
-const content = `'use client';
+'use client';
 
 import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
@@ -22,7 +20,7 @@ function ContactContent() {
 
   useEffect(() => {
     if (serviceFromUrl)
-      setMessage(\`I'm interested in: \${serviceFromUrl}\\n\\n\`);
+      setMessage(`I'm interested in: ${serviceFromUrl}\n\n`);
   }, [serviceFromUrl]);
 
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
@@ -61,7 +59,7 @@ function ContactContent() {
               </li>
               <li>
                 <a
-                  href={\`https://maps.google.com/?q=\${encodeURIComponent(ADDRESS)}\`}
+                  href={`https://maps.google.com/?q=${encodeURIComponent(ADDRESS)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 font-body text-lg text-color-text hover:text-primary transition-colors"
@@ -75,9 +73,9 @@ function ContactContent() {
             </ul>
             <div className="mt-8 rounded-xl border border-border bg-surface/80 p-6">
               <p className="font-mono text-sm text-primary">Google Rating</p>
-              <p className="mt-1 font-display text-3xl text-white">4.8 \u2605</p>
+              <p className="mt-1 font-display text-3xl text-white">4.8 ★</p>
               <p className="mt-1 font-body text-sm text-text-muted">
-                Zero bad reviews \u2014 Long Island\u2019s trusted choice.
+                Zero bad reviews — Long Island&apos;s trusted choice.
               </p>
             </div>
           </div>
@@ -88,7 +86,7 @@ function ContactContent() {
               </h2>
               {submitted ? (
                 <p className="mt-6 font-body text-color-text">
-                  Thank you! We\u2019ll be in touch soon. For immediate help,
+                  Thank you! We&apos;ll be in touch soon. For immediate help,
                   call us at{' '}
                   <a href={PHONE_TEL} className="text-primary hover:underline">
                     {PHONE}
@@ -176,7 +174,3 @@ export default function ContactPage() {
     </Suspense>
   );
 }
-`;
-
-fs.writeFileSync(process.argv[2], content);
-console.log('File written successfully');

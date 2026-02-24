@@ -1,5 +1,23 @@
-const fs = require('fs');
+module.exports = [
+"[externals]/next/dist/shared/lib/no-fallback-error.external.js [external] (next/dist/shared/lib/no-fallback-error.external.js, cjs)", ((__turbopack_context__, module, exports) => {
 
+const mod = __turbopack_context__.x("next/dist/shared/lib/no-fallback-error.external.js", () => require("next/dist/shared/lib/no-fallback-error.external.js"));
+
+module.exports = mod;
+}),
+"[project]/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)", ((__turbopack_context__) => {
+
+__turbopack_context__.n(__turbopack_context__.i("[project]/app/layout.tsx [app-rsc] (ecmascript)"));
+}),
+"[externals]/fs [external] (fs, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("fs", () => require("fs"));
+
+module.exports = mod;
+}),
+"[project]/app/contact/page.tsx [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
+
+const fs = __turbopack_context__.r("[externals]/fs [external] (fs, cjs)");
 const content = `'use client';
 
 import { useState, useEffect, Suspense } from 'react';
@@ -177,6 +195,13 @@ export default function ContactPage() {
   );
 }
 `;
-
 fs.writeFileSync(process.argv[2], content);
 console.log('File written successfully');
+}),
+"[project]/app/contact/page.tsx [app-rsc] (ecmascript, Next.js Server Component)", ((__turbopack_context__) => {
+
+__turbopack_context__.n(__turbopack_context__.i("[project]/app/contact/page.tsx [app-rsc] (ecmascript)"));
+}),
+];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__848cc15a._.js.map

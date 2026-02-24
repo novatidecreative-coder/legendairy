@@ -165,3 +165,9 @@ Unexpected token. Did you mean `{'>'}` or `&gt;`?
 [00:10:10.801] Server  ERROR   ⨯ TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
 [00:10:10.914] Server  ERROR   ⨯ TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
 [00:10:11.016] Browser ERROR   uncaughtError: TypeError: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+[00:11:21.999] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:26.564] Server  ERROR   ⨯ TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+[00:11:26.674] Server  ERROR   ⨯ TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+[00:11:26.796] Server  ERROR   ⨯ TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+[00:11:26.903] Server  ERROR   ⨯ TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+[00:11:26.966] Browser ERROR   uncaughtError: TypeError: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined

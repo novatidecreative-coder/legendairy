@@ -1,0 +1,164 @@
+[00:00:01.511] Server  LOG     
+[00:00:01.511] Server  LOG       We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:00:01.511] Server  LOG       The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+[00:00:01.511] Server  LOG       	- target was set to ES2017 (For top-level `await`. Note: Next.js only polyfills for the esmodules target.)
+[00:00:01.511] Server  LOG       	- include was updated to add '.next/dev/types/**/*.ts'
+[00:00:01.511] Server  LOG     
+[00:00:01.511] Server  LOG       The following mandatory changes were made to your tsconfig.json:
+
+[00:00:01.511] Server  LOG       	- jsx was set to react-jsx (next.js uses the React automatic runtime)
+[00:00:01.511] Server  LOG     
+[00:00:01.572] Server  LOG     ✓ Ready in 1475ms
+[00:00:02.850] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:33.668] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:40.383] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:02:59.349] Server  ERROR   ⨯ ./app/contact/page.tsx:53:17
+Parsing ecmascript source code failed
+  51 |                   href={PHONE_TEL}
+  52 |                   className="flex items-center gap-3 font-body text-lg text-color-text hover:text-primary transition-colors"
+> 53 |                 >
+     |                 ^
+  54 |                   <span className="flex h-12 w-12 items-center justify-center rounded-full border border-border bg-surface-2">
+  55 |                     <Phone className="h-5 w-5 text-primary" aria-hidden />
+  56 |                   </span>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+
+[00:02:59.478] Browser ERROR   ./app/contact/page.tsx:53:17
+Parsing ecmascript source code failed
+  51 |                   href={PHONE_TEL}
+  52 |                   className="flex items-center gap-3 font-body text-lg text-color-text hover:text-primary transition-colors"
+> 53 |                 >
+     |                 ^
+  54 |                   <span className="flex h-12 w-12 items-center justify-center rounded-full border border-border bg-surface-2">
+  55 |                     <Phone className="h-5 w-5 text-primary" aria-hidden />
+  56 |                   </span>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[00:02:59.479] Browser ERROR   ./app/contact/page.tsx:53:17
+Parsing ecmascript source code failed
+  51 |                   href={PHONE_TEL}
+  52 |                   className="flex items-center gap-3 font-body text-lg text-color-text hover:text-primary transition-colors"
+> 53 |                 >
+     |                 ^
+  54 |                   <span className="flex h-12 w-12 items-center justify-center rounded-full border border-border bg-surface-2">
+  55 |                     <Phone className="h-5 w-5 text-primary" aria-hidden />
+  56 |                   </span>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[00:02:59.750] Browser ERROR   ./app/contact/page.tsx:53:17
+Parsing ecmascript source code failed
+  51 |                   href={PHONE_TEL}
+  52 |                   className="flex items-center gap-3 font-body text-lg text-color-text hover:text-primary transition-colors"
+> 53 |                 >
+     |                 ^
+  54 |                   <span className="flex h-12 w-12 items-center justify-center rounded-full border border-border bg-surface-2">
+  55 |                     <Phone className="h-5 w-5 text-primary" aria-hidden />
+  56 |                   </span>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[00:02:59.750] Browser ERROR   ./app/contact/page.tsx:53:17
+Parsing ecmascript source code failed
+  51 |                   href={PHONE_TEL}
+  52 |                   className="flex items-center gap-3 font-body text-lg text-color-text hover:text-primary transition-colors"
+> 53 |                 >
+     |                 ^
+  54 |                   <span className="flex h-12 w-12 items-center justify-center rounded-full border border-border bg-surface-2">
+  55 |                     <Phone className="h-5 w-5 text-primary" aria-hidden />
+  56 |                   </span>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[00:02:59.751] Browser ERROR   ./app/contact/page.tsx:53:17
+Parsing ecmascript source code failed
+  51 |                   href={PHONE_TEL}
+  52 |                   className="flex items-center gap-3 font-body text-lg text-color-text hover:text-primary transition-colors"
+> 53 |                 >
+     |                 ^
+  54 |                   <span className="flex h-12 w-12 items-center justify-center rounded-full border border-border bg-surface-2">
+  55 |                     <Phone className="h-5 w-5 text-primary" aria-hidden />
+  56 |                   </span>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[00:02:59.755] Server  ERROR   ⨯ ./app/contact/page.tsx:53:17
+Parsing ecmascript source code failed
+  51 |                   href={PHONE_TEL}
+  52 |                   className="flex items-center gap-3 font-body text-lg text-color-text hover:text-primary transition-colors"
+> 53 |                 >
+     |                 ^
+  54 |                   <span className="flex h-12 w-12 items-center justify-center rounded-full border border-border bg-surface-2">
+  55 |                     <Phone className="h-5 w-5 text-primary" aria-hidden />
+  56 |                   </span>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+
+[00:02:59.853] Browser ERROR   uncaughtError: Error: ./app/contact/page.tsx:53:17
+Parsing ecmascript source code failed
+  51 |                   href={PHONE_TEL}
+  52 |                   className="flex items-center gap-3 font-body text-lg text-color-text hover:text-primary transition-colors"
+> 53 |                 >
+     |                 ^
+  54 |                   <span className="flex h-12 w-12 items-center justify-center rounded-full border border-border bg-surface-2">
+  55 |                     <Phone className="h-5 w-5 text-primary" aria-hidden />
+  56 |                   </span>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+
+[00:02:59.896] Browser ERROR   ./app/contact/page.tsx:53:17
+Parsing ecmascript source code failed
+  51 |                   href={PHONE_TEL}
+  52 |                   className="flex items-center gap-3 font-body text-lg text-color-text hover:text-primary transition-colors"
+> 53 |                 >
+     |                 ^
+  54 |                   <span className="flex h-12 w-12 items-center justify-center rounded-full border border-border bg-surface-2">
+  55 |                     <Phone className="h-5 w-5 text-primary" aria-hidden />
+  56 |                   </span>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[00:02:59.896] Browser ERROR   ./app/contact/page.tsx:53:17
+Parsing ecmascript source code failed
+  51 |                   href={PHONE_TEL}
+  52 |                   className="flex items-center gap-3 font-body text-lg text-color-text hover:text-primary transition-colors"
+> 53 |                 >
+     |                 ^
+  54 |                   <span className="flex h-12 w-12 items-center justify-center rounded-full border border-border bg-surface-2">
+  55 |                     <Phone className="h-5 w-5 text-primary" aria-hidden />
+  56 |                   </span>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[00:03:00.005] Browser ERROR   ./app/contact/page.tsx:53:17
+Parsing ecmascript source code failed
+  51 |                   href={PHONE_TEL}
+  52 |                   className="flex items-center gap-3 font-body text-lg text-color-text hover:text-primary transition-colors"
+> 53 |                 >
+     |                 ^
+  54 |                   <span className="flex h-12 w-12 items-center justify-center rounded-full border border-border bg-surface-2">
+  55 |                     <Phone className="h-5 w-5 text-primary" aria-hidden />
+  56 |                   </span>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[00:03:00.005] Browser ERROR   ./app/contact/page.tsx:53:17
+Parsing ecmascript source code failed
+  51 |                   href={PHONE_TEL}
+  52 |                   className="flex items-center gap-3 font-body text-lg text-color-text hover:text-primary transition-colors"
+> 53 |                 >
+     |                 ^
+  54 |                   <span className="flex h-12 w-12 items-center justify-center rounded-full border border-border bg-surface-2">
+  55 |                     <Phone className="h-5 w-5 text-primary" aria-hidden />
+  56 |                   </span>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[00:03:00.006] Browser ERROR   ./app/contact/page.tsx:53:17
+Parsing ecmascript source code failed
+  51 |                   href={PHONE_TEL}
+  52 |                   className="flex items-center gap-3 font-body text-lg text-color-text hover:text-primary transition-colors"
+> 53 |                 >
+     |                 ^
+  54 |                   <span className="flex h-12 w-12 items-center justify-center rounded-full border border-border bg-surface-2">
+  55 |                     <Phone className="h-5 w-5 text-primary" aria-hidden />
+  56 |                   </span>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?

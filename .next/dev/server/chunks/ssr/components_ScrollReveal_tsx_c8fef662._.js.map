@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/matthewkang/legendairy/components/ScrollReveal.tsx"],"sourcesContent":["'use client';\n\nimport { useEffect } from 'react';\n\nexport default function ScrollReveal() {\n  useEffect(() => {\n    const els = document.querySelectorAll('.section-enter');\n    const obs = new IntersectionObserver(\n      (entries) => {\n        entries.forEach((entry) => {\n          if (entry.isIntersecting) entry.target.classList.add('visible');\n        });\n      },\n      { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }\n    );\n    els.forEach((el) => obs.observe(el));\n    return () => obs.disconnect();\n  }, []);\n  return null;\n}\n"],"names":[],"mappings":";;;;AAEA;AAFA;;AAIe,SAAS;IACtB,IAAA,kNAAS,EAAC;QACR,MAAM,MAAM,SAAS,gBAAgB,CAAC;QACtC,MAAM,MAAM,IAAI,qBACd,CAAC;YACC,QAAQ,OAAO,CAAC,CAAC;gBACf,IAAI,MAAM,cAAc,EAAE,MAAM,MAAM,CAAC,SAAS,CAAC,GAAG,CAAC;YACvD;QACF,GACA;YAAE,WAAW;YAAK,YAAY;QAAoB;QAEpD,IAAI,OAAO,CAAC,CAAC,KAAO,IAAI,OAAO,CAAC;QAChC,OAAO,IAAM,IAAI,UAAU;IAC7B,GAAG,EAAE;IACL,OAAO;AACT"}}]
+}

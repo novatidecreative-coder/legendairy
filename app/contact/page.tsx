@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { Phone, MapPin, Send } from 'lucide-react';
 import PageHeader from '@/components/PageHeader';
@@ -10,7 +10,7 @@ const PHONE = '(516) 708-7755';
 const PHONE_TEL = 'tel:+15167087755';
 const ADDRESS = '79-38 209th St, Flushing, NY 11364';
 
-export default function ContactPage() {
+function ContactContent() {
   const [submitted, setSubmitted] = useState(false);
   const searchParams = useSearchParams();
   const serviceFromUrl = searchParams.get('service');
@@ -45,7 +45,7 @@ export default function ContactPage() {
             </p>
             <ul className="mt-8 space-y-6">
               <li>
-                <a
+                
                   href={PHONE_TEL}
                   className="flex items-center gap-3 font-body text-lg text-color-text hover:text-primary transition-colors"
                 >
@@ -56,7 +56,7 @@ export default function ContactPage() {
                 </a>
               </li>
               <li>
-                <a
+                
                   href={`https://maps.google.com/?q=${encodeURIComponent(ADDRESS)}`}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -163,5 +163,13 @@ export default function ContactPage() {
         </div>
       </div>
     </>
+  );
+}
+
+export default function ContactPage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <ContactContent />
+    </Suspense>
   );
 }

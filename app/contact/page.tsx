@@ -5,6 +5,7 @@ import { useSearchParams } from 'next/navigation';
 import { Phone, MapPin, Send } from 'lucide-react';
 import PageHeader from '@/components/PageHeader';
 import ScrollReveal from '@/components/ScrollReveal';
+import { FORMSPREE_FORM_ID } from '@/lib/site';
 
 const PHONE = '(516) 708-7755';
 const PHONE_TEL = 'tel:+15167087755';
@@ -12,6 +13,8 @@ const ADDRESS = '79-38 209th St, Flushing, NY 11364';
 
 function ContactContent() {
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [error, setError] = useState<string | null>(null);
   const searchParams = useSearchParams();
   const serviceFromUrl = searchParams.get('service');
   const [message, setMessage] = useState('');
@@ -21,9 +24,37 @@ function ContactContent() {
       setMessage(`I'm interested in: ${serviceFromUrl}\n\n`);
   }, [serviceFromUrl]);
 
-  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    setSubmitted(true);
+    setError(null);
+    if (!FORMSPREE_FORM_ID) {
+      setError('Form is not configured. Please set NEXT_PUBLIC_FORMSPREE_FORM_ID.');
+      return;
+    }
+    const form = e.currentTarget;
+    const nameVal = (form.elements.namedItem('name') as HTMLInputElement).value;
+    const data: Record<string, string> = {
+      name: nameVal,
+      email: (form.elements.namedItem('email') as HTMLInputElement).value,
+      phone: (form.elements.namedItem('phone') as HTMLInputElement).value,
+      message: (form.elements.namedItem('message') as HTMLTextAreaElement).value,
+      _subject: `Legendairy AC — New estimate request from ${nameVal}`,
+    };
+    if (serviceFromUrl) data.service = serviceFromUrl;
+    setSubmitting(true);
+    try {
+      const res = await fetch(`https://formspree.io/f/${FORMSPREE_FORM_ID}`, {
+        method: 'POST',
+        body: JSON.stringify(data),
+        headers: { 'Content-Type': 'application/json' },
+      });
+      if (!res.ok) throw new Error('Submission failed');
+      setSubmitted(true);
+    } catch {
+      setError('Something went wrong. Please call us at ' + PHONE + ' or try again.');
+    } finally {
+      setSubmitting(false);
+    }
   }
 
   return (
@@ -93,6 +124,11 @@ function ContactContent() {
                 </p>
               ) : (
                 <form onSubmit={handleSubmit} className="mt-6 space-y-4">
+                  {error && (
+                    <p className="rounded-lg border border-red-500/50 bg-red-500/10 px-4 py-2 font-body text-sm text-red-400">
+                      {error}
+                    </p>
+                  )}
                   <div>
                     <label htmlFor="name" className="block font-body text-sm text-text-muted">
                       Name *
@@ -151,9 +187,13 @@ function ContactContent() {
                       placeholder="Tell us about your HVAC needs..."
                     />
                   </div>
-                  <button type="submit" className="btn-cta inline-flex items-center gap-2">
+                  <button
+                    type="submit"
+                    disabled={submitting}
+                    className="btn-cta inline-flex items-center gap-2 disabled:opacity-70 disabled:pointer-events-none"
+                  >
                     <Send className="h-4 w-4" aria-hidden />
-                    Send Request
+                    {submitting ? 'Sending...' : 'Send Request'}
                   </button>
                 </form>
               )}

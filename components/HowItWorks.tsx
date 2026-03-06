@@ -20,7 +20,7 @@ export default function HowItWorks() {
             HOW IT WORKS
           </p>
           <h2 className="mt-2 font-display text-3xl tracking-wider text-white sm:text-4xl">
-            Quick and Easy Process To Get Your HVAC
+            Simple Process for Repairs & Installations
           </h2>
         </div>
         <div className="mt-16">

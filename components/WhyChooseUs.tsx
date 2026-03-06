@@ -6,15 +6,15 @@ import { Wrench, Star } from 'lucide-react';
 const features = [
   {
     icon: Wrench,
-    title: 'Expert Repairmen',
+    title: 'Expert Commercial & Residential',
     description:
-      'We have expert repairmen dedicated to quickly diagnosing and repairing any heating or cooling issues. With years of experience across all HVAC brands and models, our technicians deliver reliable, efficient service.',
+      'Our technicians specialize in commercial and residential installs and repairs. We diagnose and fix heating and cooling issues fast — from rooftop units to home systems — with minimal downtime.',
   },
   {
     icon: Star,
-    title: 'Satisfied Services',
+    title: 'Trusted for Repairs & Installs',
     description:
-      'With over 10 years of experience and a perfect 4.8-star rating on Google, our commitment to exceptional service speaks for itself. We take pride in delivering top-quality HVAC solutions.',
+      'Over 10 years in business and a 4.8-star rating. We deliver commercial and residential repairs and installations you can count on — quality work and clear communication every time.',
   },
 ];
 
@@ -28,7 +28,7 @@ export default function WhyChooseUs() {
             WHY CHOOSE US
           </p>
           <h2 className="mt-2 font-display text-3xl tracking-wider text-white sm:text-4xl">
-            Check Out Our Amazing Deals
+            Why Businesses & Homeowners Choose Us
           </h2>
         </div>
         <div className="mt-16 grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
@@ -53,14 +53,20 @@ export default function WhyChooseUs() {
               </div>
             ))}
           </div>
-          <div className="section-enter relative aspect-[4/3] overflow-hidden rounded-xl border border-border">
-            <Image
-              src="https://picsum.photos/800/600?random=tech"
-              alt="Legendairy AC technician at work"
-              fill
-              className="object-cover"
-              sizes="(max-width: 1024px) 100vw, 50vw"
-            />
+          <div className="section-enter flex flex-col">
+            <div className="relative min-h-[280px] aspect-[4/3] overflow-hidden rounded-xl border border-border bg-surface-2">
+              <Image
+                src="/images/rooftop-installation.png"
+                alt="Commercial rooftop HVAC units with city skyline"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                priority
+              />
+            </div>
+            <p className="mt-3 font-display text-lg tracking-wider text-primary">
+              Rooftop installation — Long Island
+            </p>
           </div>
         </div>
       </div>

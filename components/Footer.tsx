@@ -1,26 +1,10 @@
 import Link from 'next/link';
 import { MapPin, Phone } from 'lucide-react';
+import Logo from '@/components/Logo';
 
 const PHONE = '(516) 708-7755';
 const PHONE_TEL = 'tel:+15167087755';
 const ADDRESS = '79-38 209th St, Flushing, NY 11364';
-
-function FrostIcon() {
-  return (
-    <svg
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.5"
-      className="text-primary shrink-0"
-      aria-hidden
-    >
-      <path d="M12 2v20M12 2l-4 4M12 2l4 4M12 22l-4-4M12 22l4-4M4 12H2M22 12h-2M6.34 6.34L4.93 4.93M19.07 19.07l-1.41-1.41M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41M4 12a8 8 0 0116 0" />
-    </svg>
-  );
-}
 
 const footerLinks = [
   { href: '/', label: 'Home' },
@@ -50,14 +34,9 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           <div>
-            <Link href="/" className="flex items-center gap-2">
-              <FrostIcon />
-              <span className="font-display text-2xl tracking-wider text-white">
-                LEGENDAIRY AC
-              </span>
-            </Link>
+            <Logo size="large" />
             <p className="mt-2 font-body text-sm text-text-muted">
-              The Most Trusted Heating and Air Conditioning Service
+              Commercial & residential repairs & installations — Long Island&apos;s trusted choice.
             </p>
           </div>
 

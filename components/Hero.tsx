@@ -10,8 +10,8 @@ const PHONE_TEL = 'tel:+15167087755';
 const PHONE = '(516) 708-7755';
 
 const stats = [
-  { value: '#1' as const, label: 'Most Trusted on Long Island' },
-  { value: 700, suffix: '+', label: 'Projects Completed' },
+  { value: '#1' as const, label: 'Commercial HVAC on Long Island' },
+  { value: 700, suffix: '+', label: 'Commercial & Residential Projects' },
   { value: 10, suffix: '+', label: 'Years in Business' },
 ];
 
@@ -29,10 +29,10 @@ export default function Hero() {
             <span className="h-px w-16 bg-primary" aria-hidden />
           </div>
           <h1 className="font-display text-4xl leading-tight tracking-wider text-white sm:text-5xl md:text-6xl lg:text-7xl">
-            THE MOST TRUSTED HEATING & AIR CONDITIONING SERVICE
+            COMMERCIAL REPAIRS & INSTALLATIONS
           </h1>
           <p className="mx-auto mt-4 max-w-2xl font-body text-lg text-text-muted sm:text-xl">
-            Long Island&apos;s #1 Heating & Air Conditioning Specialists
+            Long Island&apos;s trusted choice for commercial and residential HVAC — installs, repairs, and 24/7 service
           </p>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
             <a

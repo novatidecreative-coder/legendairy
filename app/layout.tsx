@@ -4,8 +4,8 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Legendairy AC | Long Island\'s #1 Heating & Air Conditioning',
-  description: 'The Most Trusted Heating and Air Conditioning Service. Since 2012. 700+ projects, 4.8 stars, zero bad reviews. Call (516) 708-7755.',
+  title: 'Legendairy AC | Commercial Repairs & Installations | Long Island',
+  description: 'Commercial and residential HVAC repairs & installations. Long Island\'s trusted choice since 2012. 700+ projects, 4.8 stars. Call (516) 708-7755.',
 };
 
 export default function RootLayout({

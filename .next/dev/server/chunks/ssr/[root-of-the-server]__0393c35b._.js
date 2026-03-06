@@ -126,31 +126,31 @@ const PHONE_TEL = 'tel:+15167087755';
 const PHONE = '(516) 708-7755';
 const services = [
     {
+        id: 'commercial-ac',
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$snowflake$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Snowflake$3e$__["Snowflake"],
+        title: 'Commercial AC Install & Repair',
+        description: 'Full commercial cooling — rooftop units, packaged systems, and split systems. We install, repair, and maintain commercial AC so your business stays comfortable with minimal downtime.',
+        image: '/images/rooftopinstall.jpg'
+    },
+    {
+        id: 'commercial-heating',
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$flame$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Flame$3e$__["Flame"],
+        title: 'Commercial Heating Install & Repair',
+        description: 'Commercial heating for offices, retail, and industrial. From installs to 24/7 repairs, we keep your building warm and your operations running.',
+        image: '/images/commercialhvac.jpg'
+    },
+    {
         id: 'quality-testing',
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$gauge$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Gauge$3e$__["Gauge"],
-        title: 'Quality Testing',
-        description: 'Ensuring top performance and durability through thorough inspections. Our technicians run comprehensive checks on every system we service, so you can trust your HVAC is running at peak efficiency.',
+        title: 'Quality Testing & Maintenance',
+        description: 'Inspections and maintenance for commercial and residential systems. We run comprehensive checks so your HVAC runs at peak efficiency and avoids costly failures.',
         image: 'https://picsum.photos/600/400?random=quality'
-    },
-    {
-        id: 'heating',
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$flame$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Flame$3e$__["Flame"],
-        title: 'Heating Services',
-        description: 'Reliable heating solutions for comfort and energy efficiency. From furnace repair to full heating system installation, we keep Long Island homes warm all winter.',
-        image: 'https://picsum.photos/600/400?random=heating'
-    },
-    {
-        id: 'ac-installation',
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$snowflake$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Snowflake$3e$__["Snowflake"],
-        title: 'AC Installation',
-        description: 'Expert AC setups for efficient, year-round cooling. We install leading brands and size every system correctly for your space, so you get the best performance and savings.',
-        image: 'https://picsum.photos/600/400?random=ac'
     },
     {
         id: 'emergency',
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$alert$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__AlertCircle$3e$__["AlertCircle"],
-        title: 'Emergency Repairs',
-        description: '24/7 availability for urgent HVAC failures. When your heat or AC goes out, we respond quickly to get you comfortable again.',
+        title: 'Emergency Commercial & Residential Repairs',
+        description: '24/7 response for urgent HVAC failures. When your heat or AC goes out — at home or at the job site — we respond quickly to get you back up and running.',
         image: 'https://picsum.photos/600/400?random=emergency'
     }
 ];
@@ -164,7 +164,7 @@ function ServicesPage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PageHeader$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                 title: "OUR SERVICES",
-                subtitle: "Repair, installation, and maintenance you can trust."
+                subtitle: "Commercial and residential repairs & installations — Long Island's trusted choice."
             }, void 0, false, {
                 fileName: "[project]/app/services/page.tsx",
                 lineNumber: 55,

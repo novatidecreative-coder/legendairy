@@ -3,12 +3,12 @@
 import Image from 'next/image';
 
 const copy =
-  'We keep you cool by providing top-quality air conditioning services designed to keep your home comfortable, no matter how high the temperature rises. From routine maintenance and repairs to installing the latest energy-efficient systems, our expert team ensures that you stay cool and stress-free all summer long. With our commitment to prompt service and customer satisfaction, you can count on us to deliver the comfort and reliability your family deserves.';
+  'We keep your business running with commercial-grade HVAC installs and repairs. From rooftop units and packaged systems to 24/7 emergency service, we handle commercial and residential projects across Long Island. Our team delivers reliable installs, fast repairs, and maintenance plans so you get comfort and minimal downtime. Trust us for your next commercial repair or installation.';
 
 const chips = [
-  'Prompt Service',
-  'Energy Efficient',
-  'Family Comfort',
+  'Commercial & Residential',
+  'Installs & Repairs',
+  '24/7 Emergency',
 ];
 
 export default function WeKeepYouCool() {
@@ -19,10 +19,10 @@ export default function WeKeepYouCool() {
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <div className="section-enter">
             <p className="font-display text-sm tracking-widest text-primary">
-              WE KEEP YOU COOL
+              COMMERCIAL & RESIDENTIAL
             </p>
             <h2 className="mt-2 font-display text-3xl tracking-wider text-white sm:text-4xl">
-              COMFORT YOU CAN COUNT ON
+              REPAIRS & INSTALLATIONS YOU CAN COUNT ON
             </h2>
             <p className="mt-6 font-body text-color-text/90 leading-relaxed">
               {copy}
@@ -39,15 +39,20 @@ export default function WeKeepYouCool() {
               ))}
             </div>
           </div>
-          <div className="section-enter relative aspect-[4/3] overflow-hidden rounded-xl border border-border">
-            <Image
-              src="https://picsum.photos/800/600?random=hvac1"
-              alt="HVAC technician servicing an air conditioning unit"
-              fill
-              className="object-cover"
-              sizes="(max-width: 1024px) 100vw, 50vw"
-              priority={false}
-            />
+          <div className="section-enter flex flex-col">
+            <div className="relative min-h-[280px] aspect-[4/3] overflow-hidden rounded-xl border border-border bg-surface-2">
+              <Image
+                src="/images/commercial-hvac-section.png"
+                alt="Technicians servicing commercial HVAC unit on rooftop"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                priority
+              />
+            </div>
+            <p className="mt-3 font-display text-lg tracking-wider text-primary">
+              Commercial HVAC — Legendairy AC
+            </p>
           </div>
         </div>
       </div>

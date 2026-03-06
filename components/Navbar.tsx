@@ -3,28 +3,10 @@
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
+import Logo from '@/components/Logo';
 
 const PHONE = '(516) 708-7755';
 const PHONE_TEL = 'tel:+15167087755';
-
-function FrostIcon() {
-  return (
-    <svg
-      width="20"
-      height="20"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      className="text-primary shrink-0"
-      aria-hidden
-    >
-      <path d="M12 2v20M12 2l-4 4M12 2l4 4M12 22l-4-4M12 22l4-4M4 12H2M22 12h-2M6.34 6.34L4.93 4.93M19.07 19.07l-1.41-1.41M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41M4 12a8 8 0 0116 0" />
-    </svg>
-  );
-}
 
 const navLinks = [
   { href: '/', label: 'Home' },
@@ -51,12 +33,7 @@ export default function Navbar() {
       }`}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-        <Link href="/" className="flex items-center gap-2">
-          <FrostIcon />
-          <span className="font-display text-xl tracking-wider text-white sm:text-2xl">
-            LEGENDAIRY AC
-          </span>
-        </Link>
+        <Logo />
 
         <ul className="hidden items-center gap-8 md:flex">
           {navLinks.map((link) => (

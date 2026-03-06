@@ -1,11 +1,15 @@
 /**
  * All services Legendairy AC provides — used for hero dropdown and consistency across the site.
+ * Commercial repairs and installs are highlighted first.
  */
 export const SERVICE_OPTIONS = [
-  'AC Installation',
-  'AC Repair',
-  'Heating Installation',
-  'Heating Repair / Furnace Repair',
+  'Commercial AC Installation',
+  'Commercial AC Repair',
+  'Commercial Heating Installation',
+  'Commercial Heating Repair',
+  'Residential AC Installation',
+  'Residential AC Repair',
+  'Residential Heating / Furnace Repair',
   'HVAC Maintenance & Tune-up',
   'Quality Testing & Inspections',
   'Emergency Repairs (24/7)',

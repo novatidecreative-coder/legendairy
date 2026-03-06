@@ -5,31 +5,31 @@ import { Gauge, Flame, Snowflake, AlertCircle } from 'lucide-react';
 
 const services = [
   {
-    icon: Gauge,
-    title: 'Quality Testing',
+    icon: Snowflake,
+    title: 'Commercial AC Install & Repair',
     description:
-      'Ensuring top performance and durability through thorough inspections.',
-    href: '/services#quality-testing',
+      'Full commercial cooling installs and repairs — rooftops, packaged units, and more.',
+    href: '/services#commercial-ac',
   },
   {
     icon: Flame,
-    title: 'Heating Services',
+    title: 'Commercial Heating Install & Repair',
     description:
-      'Reliable heating solutions for comfort and energy efficiency.',
-    href: '/services#heating',
+      'Heating systems for offices, retail, and industrial — installs and 24/7 repairs.',
+    href: '/services#commercial-heating',
   },
   {
-    icon: Snowflake,
-    title: 'AC Installation',
+    icon: Gauge,
+    title: 'Quality Testing & Maintenance',
     description:
-      'Expert AC setups for efficient, year-round cooling.',
-    href: '/services#ac-installation',
+      'Inspections and maintenance to keep commercial systems running at peak performance.',
+    href: '/services#quality-testing',
   },
   {
     icon: AlertCircle,
-    title: 'Emergency Repairs',
+    title: 'Emergency Commercial Repairs',
     description:
-      '24/7 availability for urgent HVAC failures.',
+      '24/7 response for urgent commercial HVAC failures — minimal downtime.',
     href: '/services#emergency',
   },
 ];
@@ -41,10 +41,10 @@ export default function Services() {
       <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <p className="font-mono text-sm tracking-widest text-primary">
-            MAIN SERVICES
+            COMMERCIAL & RESIDENTIAL
           </p>
           <h2 className="mt-2 font-display text-3xl tracking-wider text-white sm:text-4xl">
-            We Provide The Most Popular Repair & Installation Services
+            Commercial & Residential Repairs & Installations
           </h2>
         </div>
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

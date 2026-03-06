@@ -16,7 +16,7 @@ export default function EmergencyBanner() {
       <div className="noise-overlay absolute inset-0" aria-hidden />
       <div className="relative z-10 mx-auto max-w-4xl px-4 text-center sm:px-6">
         <p className="font-display text-2xl tracking-wider text-white sm:text-3xl">
-          Emergency Installation or Repair Services
+          Emergency Commercial & Residential Repairs
         </p>
         <a
           href={PHONE_TEL}

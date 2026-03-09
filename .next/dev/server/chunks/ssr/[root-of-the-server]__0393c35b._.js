@@ -130,28 +130,28 @@ const services = [
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$snowflake$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Snowflake$3e$__["Snowflake"],
         title: 'Commercial AC Install & Repair',
         description: 'Full commercial cooling — rooftop units, packaged systems, and split systems. We install, repair, and maintain commercial AC so your business stays comfortable with minimal downtime.',
-        image: '/images/rooftopinstall.jpg'
+        image: '/images/gallery/gallery-8.png'
     },
     {
         id: 'commercial-heating',
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$flame$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Flame$3e$__["Flame"],
         title: 'Commercial Heating Install & Repair',
         description: 'Commercial heating for offices, retail, and industrial. From installs to 24/7 repairs, we keep your building warm and your operations running.',
-        image: '/images/commercialhvac.jpg'
+        image: '/images/commercial-hvac-section.png'
     },
     {
         id: 'quality-testing',
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$gauge$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Gauge$3e$__["Gauge"],
         title: 'Quality Testing & Maintenance',
         description: 'Inspections and maintenance for commercial and residential systems. We run comprehensive checks so your HVAC runs at peak efficiency and avoids costly failures.',
-        image: 'https://picsum.photos/600/400?random=quality'
+        image: '/images/gallery/gallery-1.png'
     },
     {
         id: 'emergency',
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$alert$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__AlertCircle$3e$__["AlertCircle"],
         title: 'Emergency Commercial & Residential Repairs',
         description: '24/7 response for urgent HVAC failures. When your heat or AC goes out — at home or at the job site — we respond quickly to get you back up and running.',
-        image: 'https://picsum.photos/600/400?random=emergency'
+        image: '/images/gallery/gallery-14.png'
     }
 ];
 function ServicesPage() {

@@ -18,7 +18,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 const LOGO_PATH = '/images/gallery/logo.png';
 const LOGO_ALT = 'Legendairy AC';
 const USE_IMAGE_LOGO = true;
-const FORMSPREE_FORM_ID = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].env.NEXT_PUBLIC_FORMSPREE_FORM_ID || '';
+const FORMSPREE_FORM_ID = ("TURBOPACK compile-time value", "mgononzd") || '';
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }

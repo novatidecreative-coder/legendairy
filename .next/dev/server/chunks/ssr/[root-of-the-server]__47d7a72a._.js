@@ -111,24 +111,32 @@ __turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$componen
 ]);
 const GALLERY_IMAGES = [
     {
+        src: '/images/rooftop-installation.png',
+        alt: 'Rooftop installation — Long Island'
+    },
+    {
+        src: '/images/commercial-hvac-section.png',
+        alt: 'Commercial HVAC repair — Legendairy AC'
+    },
+    {
         src: '/images/commercialhvac.jpg',
         alt: 'Commercial HVAC — Legendairy AC'
     },
     {
         src: '/images/rooftopinstall.jpg',
-        alt: 'Rooftop installation — Long Island'
+        alt: 'Rooftop HVAC — Long Island'
+    },
+    {
+        src: '/images/gallery/gallery-8.png',
+        alt: 'Rooftop HVAC units with city skyline — commercial install'
     },
     {
         src: '/images/gallery/gallery-1.png',
         alt: 'HVAC control board and electronics — commercial repair'
     },
     {
-        src: '/images/gallery/gallery-2.png',
-        alt: 'Trane unit nameplate — model and refrigerant specs'
-    },
-    {
-        src: '/images/gallery/gallery-3.png',
-        alt: 'Trane commercial unit — electrical and performance specs'
+        src: '/images/gallery/gallery-17.png',
+        alt: 'Commercial HVAC equipment and installation'
     },
     {
         src: '/images/gallery/gallery-4.png',
@@ -147,16 +155,32 @@ const GALLERY_IMAGES = [
         alt: 'Commercial HVAC — digital inverter unit and conduit'
     },
     {
-        src: '/images/gallery/gallery-8.png',
-        alt: 'Rooftop HVAC units with city skyline — commercial install'
+        src: '/images/gallery/gallery-18.png',
+        alt: 'Rooftop commercial installation — Legendairy AC'
+    },
+    {
+        src: '/images/gallery/gallery-14.png',
+        alt: 'Electrical wiring and connectors — control panel'
+    },
+    {
+        src: '/images/gallery/gallery-13.png',
+        alt: 'Control panel wiring and terminals — commercial HVAC'
+    },
+    {
+        src: '/images/gallery/gallery-19.png',
+        alt: 'Commercial repairs and installs — Long Island'
+    },
+    {
+        src: '/images/gallery/gallery-2.png',
+        alt: 'Trane unit nameplate — model and refrigerant specs'
+    },
+    {
+        src: '/images/gallery/gallery-3.png',
+        alt: 'Trane commercial unit — electrical and performance specs'
     },
     {
         src: '/images/gallery/gallery-9.png',
         alt: 'Equipment nameplate — model and serial'
-    },
-    {
-        src: '/images/gallery/gallery-10.png',
-        alt: 'Carrier unit — model 48TCED, R-410A refrigerant'
     },
     {
         src: '/images/gallery/gallery-11.png',
@@ -167,36 +191,12 @@ const GALLERY_IMAGES = [
         alt: 'Commercial HVAC component label and barcode'
     },
     {
-        src: '/images/gallery/gallery-13.png',
-        alt: 'Control panel wiring and terminals — commercial HVAC'
-    },
-    {
-        src: '/images/gallery/gallery-14.png',
-        alt: 'Electrical wiring and connectors — control panel'
-    },
-    {
         src: '/images/gallery/gallery-15.png',
         alt: 'Fujitsu split-type air conditioner — outdoor unit nameplate'
     },
     {
         src: '/images/gallery/gallery-16.png',
         alt: 'Condenser coil and finned heat exchanger'
-    },
-    {
-        src: '/images/gallery/gallery-17.png',
-        alt: 'Commercial HVAC equipment and installation'
-    },
-    {
-        src: '/images/gallery/gallery-18.png',
-        alt: 'Rooftop commercial installation — Legendairy AC'
-    },
-    {
-        src: '/images/gallery/gallery-19.png',
-        alt: 'Commercial repairs and installs — Long Island'
-    },
-    {
-        src: '/images/gallery/gallery-20.png',
-        alt: 'HVAC equipment and wiring — commercial service'
     }
 ];
 }),

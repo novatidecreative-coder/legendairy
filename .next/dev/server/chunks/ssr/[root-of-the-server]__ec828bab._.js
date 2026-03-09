@@ -23,7 +23,7 @@ module.exports = mod;
 const LOGO_PATH = '/images/gallery/logo.png';
 const LOGO_ALT = 'Legendairy AC';
 const USE_IMAGE_LOGO = true;
-const FORMSPREE_FORM_ID = ("TURBOPACK compile-time value", "mgononzd") || '';
+const FORMSPREE_FORM_ID = 'mgononzd';
 }),
 "[project]/components/Logo.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
